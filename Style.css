@@ -1,4 +1,64 @@
 table, th, td 
 { 
     border: 1px solid black; 
+    margin : 40px;
+}
+
+.Link
+{
+    display: inline;
+}
+
+h1 
+{ 
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 100px; 
+    font-weight: bold;
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+    padding : 10px;
+    border: 5px solid black;
+}
+
+h2,h3,h4,h5,h6
+{ 
+    color: #111; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 30px; 
+    font-weight: 300; 
+    line-height: 32px; 
+    margin: 0 0 40px; 
+    text-align: center; 
+    border: 3px solid black;
+}
+
+p,li,ul,figcaption
+{ 
+    color: #685206;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 18px; 
+    line-height: 24px; 
+    margin: 0 0 24px; 
+    text-align: justify; 
+    text-justify: inter-word;
+}
+
+img 
+{
+    border-radius: 50%;
+}
+figcaption
+{
+    text-align: center;
+}
+tr:nth-child(even) 
+{
+    background: #CCC
+}
+
+tr:nth-child(odd) 
+{
+    background: #FFF
 }
